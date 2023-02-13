@@ -1,0 +1,458 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+* {
+      box-sizing: border-box;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      margin: 0px;
+      padding: 0px;
+}
+
+:root {
+      --bg: #f2f4f5;
+      --black: #343434;
+      --primary: #ed489d;
+      --p: #5b5b5b;
+      --secound-color: #1b2b41;
+      --main-color: #6ee9f5;
+}
+
+header {
+      padding: 0 150px 0 200px;
+      background-color: var(--bg);
+}
+
+nav {
+      padding: 50px 20px 50px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+nav h4 {
+      font-size: 26px;
+      font-weight: 400;
+      color: var(--black);
+}
+
+nav h4 span {
+      font-weight: bold;
+      color: var(--primary);
+}
+
+.navlist {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.navlist li {
+      padding: 0 20px 0 20px;
+      list-style: none;
+}
+
+.navlist li a {
+      text-decoration: none;
+      font-weight: 500;
+      color: var(--black);
+      font-size: 16px;
+}
+
+.navlist li a:hover {
+      color: var(--primary);
+}
+
+.contact-btn {
+      padding: 10px 20px;
+      border: 2px solid var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+      color: var(--black);
+      font-size: 16px;
+      border-radius: 10px;
+}
+
+.contact-btn i {
+      padding-right: 10px;
+}
+
+
+/* ------------ Hero ----------------------- */
+.hero {
+      padding: 0 150px 0 150px;
+      background-color: var(--bg);
+}
+
+.hero-row {
+      display: grid;
+      grid-template-columns: 44.83% 44.83% 20.33%;
+      /* text-align: center; */
+}
+
+.hero-column {
+      padding: 16px;
+      margin: 5px;
+}
+
+.hero-info {
+      display: inline-block;
+      margin: 30px;
+      padding: 2px;
+      padding-top: 80px;
+}
+
+.hero-info .left-col {
+      padding-bottom: 20px;
+      text-align: right;
+}
+
+.hero-info f2 {
+      color: var(--p);
+      font-weight: 600;
+      margin-bottom: 5px;
+}
+
+.social-icon a {
+      line-height: 58px;
+      vertical-align: middle;
+      font-size: 16px;
+      color: var(--black);
+      background-color: #fbfbfb;
+      padding: 9px 14px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hero-text {
+      margin: 30px;
+      padding: 80px 0 0 0;
+      height: 500px;
+}
+
+.hero-text h3 {
+      font-size: 38px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-bottom: 5px;
+}
+
+.hero-text h5 {
+      color: var(--p);
+      font-weight: 600;
+      font-size: 16px;
+      margin-bottom: 5px;
+}
+
+.hero-text p {
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 1.5;
+      color: var(--p);
+      margin-bottom: 50px;
+}
+
+.hire-btn {
+      background: var(--primary);
+      color: #fff;
+      font-weight: 500;
+      border-radius: 10px;
+      padding: 13px 29px;
+      margin-right: 30px;
+      font-size: 14px;
+      transition: all 0.4s ease;
+      text-decoration: none;
+}
+
+.hire-btn i {
+      padding-right: 10px;
+}
+
+.hero-column img {
+      width: 100%;
+}
+
+/* --------------- About Me ------------- */
+.about-container {
+      padding: 80px 150px 80px 150px;
+      height: auto;
+}
+
+.about-text {
+      text-align: center;
+      padding: 80px 280px;
+
+}
+
+.about-text h3 {
+      font-size: 38px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+}
+
+.about-text p {
+      font-size: 16px;
+      font-weight: 400;
+      color: var(--p);
+}
+
+.about-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: var(--bg);
+      margin: 0 200px;
+      padding: 40px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+}
+
+.about-col a {
+      color: var(--primary);
+      font-size: 20px;
+
+}
+
+.about-col a i {
+      margin-bottom: 10px;
+}
+
+.about-col h4 {
+      color: var(--primary);
+      font-weight: 700;
+      letter-spacing: 1px;
+      font-size: 18px;
+}
+
+
+
+/* --------------- Project -------------------- */
+
+.project-container {
+      padding: 0px 150px 80px 150px;
+      height: auto;
+      background-color: var(--bg);
+}
+
+.project-contain {
+      text-align: left;
+      padding: 80px 0px;
+
+}
+
+.project-contain h3 {
+      font-size: 38px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+}
+
+.project-contain p {
+      font-size: 16px;
+      font-weight: 400;
+      color: var(--p);
+}
+
+.project-list .col {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.project-item {
+      position: relative;
+      float: left;
+      overflow: hidden;
+      margin: 10px 1%;
+      text-align: center;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+      box-sizing: border-box;
+      border-radius: 10px;
+}
+
+.project-item:hover {
+      cursor: pointer;
+      background-color: var(--primary);
+}
+
+.project-item * {
+      transition: all 0.35s ease-in-out;
+}
+
+.project-img {
+      max-width: 100%;
+      vertical-align: top;
+      height: 310px;
+}
+
+.project-item:hover .project-img {
+      opacity: 0;
+}
+
+.project-text {
+      width: 80%;
+      height: 90%;
+      position: absolute;
+      top: -100px;
+      left: 10%;
+      color: var(--bg);
+}
+
+.project-text h3 {
+      color: black;
+      margin-bottom: 20px;
+}
+
+.project-item:hover .project-text {
+      top: 20%;
+}
+
+.project-item:hover .project-button {
+      bottom: 20%;
+}
+
+.project-item .project-button {
+      position: absolute;
+      bottom: -100px;
+      left: 25%;
+      width: 50%;
+      border: 3px solid var(--bg);
+      padding: 15px;
+      box-sizing: border-box;
+      transition: all 0.3s ease-in-out;
+}
+
+.project-button:hover {
+      background-color: var(--bg);
+      color: var(--primary);
+}
+
+
+
+
+/* ----------------- Testmonials ------------------ */
+/*** 
+ ====================================================================
+ Testimonial Section
+ ====================================================================
+ ***/
+.container-testimonial {
+      /* height: 100vh; */
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* background-color: var(--primary); */
+      padding: 0px 150px 80px 150px;
+}
+
+.testimonial {
+      position: relative;
+      max-width: 900px;
+      width: 100%;
+      padding: 50px 0;
+      overflow: hidden;
+}
+
+.testimonial .image {
+      height: 170px;
+      width: 170px;
+      object-fit: cover;
+      border-radius: 50%;
+}
+
+.testimonial .slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      row-gap: 30px;
+      height: 100%;
+      width: 100%;
+}
+
+.slide p {
+      text-align: center;
+      padding: 0 160px;
+      font-size: 14px;
+      font-weight: 400;
+      color: #333;
+}
+
+.slide .quote-icon {
+      font-size: 30px;
+      color: #4070f4;
+}
+
+.slide .details {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+
+.details .name {
+      font-size: 14px;
+      font-weight: 600;
+      color: #333;
+}
+
+.details .job {
+      font-size: 12px;
+      font-weight: 400;
+      color: #333;
+}
+
+/* swiper button css */
+.nav-btn {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      transform: translateY(30px);
+      /* background-color: rgba(0, 0, 0, 0.1); */
+      transition: 0.2s;
+}
+
+.nav-btn:hover {
+      background-color: rgba(0, 0, 0, 0.2);
+}
+
+.nav-btn::after,
+.nav-btn::before {
+      font-size: 20px;
+      color: var(--black);
+}
+
+.swiper-pagination-bullet {
+      background-color: rgba(0, 0, 0, 0.8);
+}
+
+.swiper-pagination-bullet-active {
+      background-color: #4070f4;
+}
+
+@media screen and (max-width: 768px) {
+      .slide p {
+            padding: 0 20px;
+      }
+
+      .nav-btn {
+            display: none;
+      }
+}
+
+
+/* ---------------- FOOTER ----------------- */
+
+.footer-section {
+      background-color: var(--primary);
+      padding: 30px 0px;
+      text-align: center;
+}
+
+.footer-section .row {
+      width: 100%;
+      margin: 1% 0%;
+      padding: 0.6% 0%;
+      color: var(--bg);
+      font-size: 0.8em;
+      font-weight: bold;
+}
